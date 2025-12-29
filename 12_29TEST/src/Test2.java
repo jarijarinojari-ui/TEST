@@ -11,6 +11,7 @@ public class Test2 {
             System.out.print(" = " + k);
             System.out.println();
             z += k;//첫번째 for의 합인 k의 총합을 z에 저장
+            //첫번째 for이 끝나면 k를 초기화 한다.
         }
         System.out.println(z);
     }
