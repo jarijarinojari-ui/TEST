@@ -6,11 +6,11 @@ public class Test2 {
             k = 0;
             for (int j = 1; j <= i; j++){
                 System.out.print(j);
-                k += j;//첫번째 for의 합인 j의 총합을 k에 저장
+                k += j;//두번째 for의 합인 j의 총합을 k에 저장
             }
             System.out.print(" = " + k);
             System.out.println();
-            z += k;//두번째 for의 합인 k의 총합을 z에 저장
+            z += k;//첫번째 for의 합인 k의 총합을 z에 저장
         }
         System.out.println(z);
     }
